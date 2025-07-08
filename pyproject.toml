@@ -1,0 +1,6 @@
+[tool.poetry]
+name = "post"
+version = "1.0.0"
+description = ""
+authors = ["Olivier DAUMAS <olivier.daumas@acri-st.fr>"]
+readme = "README.md"
