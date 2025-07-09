@@ -1,6 +1,16 @@
-[tool.poetry]
-name = "post"
+[project]
+name = "post-service"
 version = "1.0.0"
-description = ""
-authors = ["Olivier DAUMAS <olivier.daumas@acri-st.fr>"]
-readme = "README.md"
+description = "Microservice for post management and interactions"
+authors = []
+requires-python = ">=3.12"
+
+dependencies = [
+    "msfwk>=1.0.20",
+    "despsharedlibrary>=1.0.4",
+    "markdown>=3.5.0",
+]
+
+[tool.uv.sources]
+msfwk = { path = "libs/base-service" }
+despsharedlibrary = { path = "libs/desp_shared_library" }
